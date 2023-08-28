@@ -1,0 +1,44 @@
+.error {
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.form_heading {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.add_user {
+    width: 400px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input_box {
+    padding: 7px 10px;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 16px;
+}
+
+.input_box:focus {
+    outline: none;
+}
+
+.add_user_btn {
+    padding: 8px 0;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add_user_btn:hover {
+    background-color: rgb(3, 3, 200);
+    box-shadow: 0px 0px 6px 1px rgb(186, 183, 183);
+}

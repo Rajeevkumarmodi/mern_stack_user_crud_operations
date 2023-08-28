@@ -1,0 +1,42 @@
+.heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    margin: 30px auto;
+    width: 1000px;
+}
+
+thead {
+
+    background-color: orange;
+    line-height: 30px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+tbody {
+    text-align: center;
+    line-height: 40px;
+}
+
+.updateBtn {
+    padding: 7px 10px;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.deleteBtn {
+    padding: 7px 10px;
+    background-color: rgb(237, 6, 6);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
